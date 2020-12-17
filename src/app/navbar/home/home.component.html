@@ -1,0 +1,76 @@
+
+<!----------------------------------TOP NAVBAR------------------------------>
+
+<app-header></app-header>
+
+  <!----------------------------- HOME NAVBAR --------------------------------------->
+  
+  <nav class="navbar-nav navbar-expand-lg" style="background-color: #0e212a; height: 60px;">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../home/"
+          style="background-color: #750707; color:white; border-radius: 5px;"
+          >Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../view-staff-details/">My Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../circle1/">External Staff</a>
+        </li>
+        <!-- <li class="nav-item">
+                  <a class="nav-link" href="../create-bundobust/"><b>Create Bundobust</b></a>
+              </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="../events/">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../alerts/">Alerts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../mailbox/">Mailbox</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../reports/">Reports</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+<!-- --------------------------------- BODY -------------------------------->
+
+<section class="main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <span></span>
+        <img
+          src="../../../assets/images/logo1.png"
+          width="500px"
+          height="500px"
+          alt="police"
+        />
+      </div>
+      <div class="col-md-8">
+        <h2>Telangana State Police Bandobust</h2>
+        <br /><br /><br /><br /><br />
+        <span class="buttons" style="margin-left: 150px;">
+          <button type="btn" class="btn" (click)="create()">
+            Create Profile
+          </button>
+          <button
+            type="btn"
+            class="btn"
+            style="margin-left: 100px;"
+            (click)="onClick()"
+          >
+            Create Bundobust
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
